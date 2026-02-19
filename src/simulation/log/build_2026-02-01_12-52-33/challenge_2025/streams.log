@@ -1,0 +1,45 @@
+[1.466s] Invoking command in '/home/harry/simulation/art_gallery/challenge_2025': PYTHONPATH=/home/harry/simulation/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge_2025 build --build-base /home/harry/simulation/build/challenge_2025/build install --record /home/harry/simulation/build/challenge_2025/install.log --single-version-externally-managed install_data
+[1.955s] running egg_info
+[1.956s] creating ../../build/challenge_2025/challenge_2025.egg-info
+[1.956s] writing ../../build/challenge_2025/challenge_2025.egg-info/PKG-INFO
+[1.960s] writing dependency_links to ../../build/challenge_2025/challenge_2025.egg-info/dependency_links.txt
+[1.960s] writing entry points to ../../build/challenge_2025/challenge_2025.egg-info/entry_points.txt
+[1.960s] writing requirements to ../../build/challenge_2025/challenge_2025.egg-info/requires.txt
+[1.961s] writing top-level names to ../../build/challenge_2025/challenge_2025.egg-info/top_level.txt
+[1.961s] writing manifest file '../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[1.966s] reading manifest file '../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[1.966s] writing manifest file '../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[1.966s] running build
+[1.966s] running build_py
+[1.967s] creating /home/harry/simulation/build/challenge_2025/build
+[1.968s] creating /home/harry/simulation/build/challenge_2025/build/lib
+[1.968s] creating /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025
+[1.969s] copying challenge_2025/object_spawner_pallets.py -> /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025
+[1.970s] copying challenge_2025/__init__.py -> /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025
+[1.970s] copying challenge_2025/object_spawner_static.py -> /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025
+[1.971s] copying challenge_2025/tag_spawner_random.py -> /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025
+[1.971s] running install
+[1.972s] running install_lib
+[1.974s] creating /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.974s] copying /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025/object_spawner_pallets.py -> /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.974s] copying /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025/__init__.py -> /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.975s] copying /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025/object_spawner_static.py -> /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.977s] copying /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025/tag_spawner_random.py -> /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.977s] byte-compiling /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/object_spawner_pallets.py to object_spawner_pallets.cpython-310.pyc
+[1.980s] byte-compiling /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/__init__.py to __init__.cpython-310.pyc
+[1.982s] byte-compiling /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/object_spawner_static.py to object_spawner_static.cpython-310.pyc
+[1.982s] byte-compiling /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/tag_spawner_random.py to tag_spawner_random.cpython-310.pyc
+[1.984s] running install_data
+[1.985s] creating /home/harry/simulation/install/challenge_2025/share/ament_index
+[1.986s] creating /home/harry/simulation/install/challenge_2025/share/ament_index/resource_index
+[1.987s] creating /home/harry/simulation/install/challenge_2025/share/ament_index/resource_index/packages
+[1.987s] copying resource/challenge_2025 -> /home/harry/simulation/install/challenge_2025/share/ament_index/resource_index/packages
+[1.987s] copying package.xml -> /home/harry/simulation/install/challenge_2025/share/challenge_2025
+[1.988s] running install_egg_info
+[1.992s] Copying ../../build/challenge_2025/challenge_2025.egg-info to /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025-0.0.0-py3.10.egg-info
+[1.996s] running install_scripts
+[2.042s] Installing object_spawner_pallets script to /home/harry/simulation/install/challenge_2025/lib/challenge_2025
+[2.043s] Installing object_spawner_static script to /home/harry/simulation/install/challenge_2025/lib/challenge_2025
+[2.043s] Installing tag_spawner_random script to /home/harry/simulation/install/challenge_2025/lib/challenge_2025
+[2.046s] writing list of installed files to '/home/harry/simulation/build/challenge_2025/install.log'
+[2.107s] Invoked command in '/home/harry/simulation/art_gallery/challenge_2025' returned '0': PYTHONPATH=/home/harry/simulation/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/challenge_2025 build --build-base /home/harry/simulation/build/challenge_2025/build install --record /home/harry/simulation/build/challenge_2025/install.log --single-version-externally-managed install_data

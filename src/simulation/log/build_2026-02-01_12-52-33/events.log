@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000710] (art_maze) JobQueued: {'identifier': 'art_maze', 'dependencies': OrderedDict()}
+[0.000863] (challenge_2025) JobQueued: {'identifier': 'challenge_2025', 'dependencies': OrderedDict()}
+[0.000960] (curator) JobQueued: {'identifier': 'curator', 'dependencies': OrderedDict()}
+[0.001050] (tb3_description) JobQueued: {'identifier': 'tb3_description', 'dependencies': OrderedDict()}
+[0.001137] (tb3_gazebo) JobQueued: {'identifier': 'tb3_gazebo', 'dependencies': OrderedDict()}
+[0.001181] (art_maze) JobStarted: {'identifier': 'art_maze'}
+[0.016369] (challenge_2025) JobStarted: {'identifier': 'challenge_2025'}
+[0.035813] (art_maze) JobProgress: {'identifier': 'art_maze', 'progress': 'cmake'}
+[0.036555] (art_maze) Command: {'cmd': ['/usr/bin/cmake', '/home/harry/simulation/art_gallery/art_maze', '-DCMAKE_INSTALL_PREFIX=/home/harry/simulation/install/art_maze'], 'cwd': '/home/harry/simulation/build/art_maze', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'harry'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/harry/robot/install/turtlesim/lib:/home/harry/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/harry'), ('OLDPWD', '/home/harry'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2008'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/harry/install:/home/harry/robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry-virtual-machine:@/tmp/.ICE-unix/1783,unix/harry-virtual-machine:/tmp/.ICE-unix/1783'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e712e11_db76_4bdc_b2aa_d2946fb2702d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R5YOJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/harry/robot/install/turtlesim:/home/harry/robot/install/my_first_package:/home/harry/robot/install/test_package:/home/harry/install/turtlesim:/home/harry/install/my_first_package:/home/harry/install/test_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/simulation/build/art_maze'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:/home/harry/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/install/turtlesim:/home/harry/install/test_package:/home/harry/robot/install/my_first_package:/home/harry/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[0.099022] (-) TimerEvent: {}
+[0.199827] (-) TimerEvent: {}
+[0.300388] (-) TimerEvent: {}
+[0.401765] (-) TimerEvent: {}
+[0.452245] (art_maze) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.502046] (-) TimerEvent: {}
+[0.603098] (-) TimerEvent: {}
+[0.704975] (-) TimerEvent: {}
+[0.805556] (-) TimerEvent: {}
+[0.812980] (art_maze) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.870928] (art_maze) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.905701] (-) TimerEvent: {}
+[1.006264] (-) TimerEvent: {}
+[1.106802] (-) TimerEvent: {}
+[1.147995] (art_maze) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.160588] (art_maze) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.207045] (-) TimerEvent: {}
+[1.214813] (art_maze) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.217699] (art_maze) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.227897] (art_maze) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.307175] (-) TimerEvent: {}
+[1.407955] (-) TimerEvent: {}
+[1.452344] (art_maze) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.471434] (art_maze) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.471758] (art_maze) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.473042] (art_maze) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.481893] (challenge_2025) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/challenge_2025', 'build', '--build-base', '/home/harry/simulation/build/challenge_2025/build', 'install', '--record', '/home/harry/simulation/build/challenge_2025/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/harry/simulation/art_gallery/challenge_2025', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'harry', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/harry/robot/install/turtlesim/lib:/home/harry/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/harry', 'OLDPWD': '/home/harry', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2008', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/harry/install:/home/harry/robot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'harry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'harry', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/harry-virtual-machine:@/tmp/.ICE-unix/1783,unix/harry-virtual-machine:/tmp/.ICE-unix/1783', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5e712e11_db76_4bdc_b2aa_d2946fb2702d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R5YOJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/harry/robot/install/turtlesim:/home/harry/robot/install/my_first_package:/home/harry/robot/install/test_package:/home/harry/install/turtlesim:/home/harry/install/my_first_package:/home/harry/install/test_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/harry/simulation/build/challenge_2025', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/harry/simulation/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages:/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:/home/harry/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/install/turtlesim:/home/harry/install/test_package'}, 'shell': False}
+[1.495240] (art_maze) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.508919] (-) TimerEvent: {}
+[1.609484] (-) TimerEvent: {}
+[1.710029] (-) TimerEvent: {}
+[1.811149] (-) TimerEvent: {}
+[1.839645] (art_maze) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.911269] (-) TimerEvent: {}
+[1.971508] (challenge_2025) StdoutLine: {'line': b'running egg_info\n'}
+[1.971937] (challenge_2025) StdoutLine: {'line': b'creating ../../build/challenge_2025/challenge_2025.egg-info\n'}
+[1.972598] (challenge_2025) StdoutLine: {'line': b'writing ../../build/challenge_2025/challenge_2025.egg-info/PKG-INFO\n'}
+[1.975948] (challenge_2025) StdoutLine: {'line': b'writing dependency_links to ../../build/challenge_2025/challenge_2025.egg-info/dependency_links.txt\n'}
+[1.976171] (challenge_2025) StdoutLine: {'line': b'writing entry points to ../../build/challenge_2025/challenge_2025.egg-info/entry_points.txt\n'}
+[1.976373] (challenge_2025) StdoutLine: {'line': b'writing requirements to ../../build/challenge_2025/challenge_2025.egg-info/requires.txt\n'}
+[1.976817] (challenge_2025) StdoutLine: {'line': b'writing top-level names to ../../build/challenge_2025/challenge_2025.egg-info/top_level.txt\n'}
+[1.977073] (challenge_2025) StdoutLine: {'line': b"writing manifest file '../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'\n"}
+[1.981699] (challenge_2025) StdoutLine: {'line': b"reading manifest file '../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'\n"}
+[1.982074] (challenge_2025) StdoutLine: {'line': b"writing manifest file '../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'\n"}
+[1.982256] (challenge_2025) StdoutLine: {'line': b'running build\n'}
+[1.982495] (challenge_2025) StdoutLine: {'line': b'running build_py\n'}
+[1.983328] (challenge_2025) StdoutLine: {'line': b'creating /home/harry/simulation/build/challenge_2025/build\n'}
+[1.983881] (challenge_2025) StdoutLine: {'line': b'creating /home/harry/simulation/build/challenge_2025/build/lib\n'}
+[1.984320] (challenge_2025) StdoutLine: {'line': b'creating /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025\n'}
+[1.984799] (challenge_2025) StdoutLine: {'line': b'copying challenge_2025/object_spawner_pallets.py -> /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025\n'}
+[1.986136] (challenge_2025) StdoutLine: {'line': b'copying challenge_2025/__init__.py -> /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025\n'}
+[1.986304] (challenge_2025) StdoutLine: {'line': b'copying challenge_2025/object_spawner_static.py -> /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025\n'}
+[1.987192] (challenge_2025) StdoutLine: {'line': b'copying challenge_2025/tag_spawner_random.py -> /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025\n'}
+[1.987527] (challenge_2025) StdoutLine: {'line': b'running install\n'}
+[1.988343] (challenge_2025) StdoutLine: {'line': b'running install_lib\n'}
+[1.989981] (challenge_2025) StdoutLine: {'line': b'creating /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025\n'}
+[1.990488] (challenge_2025) StdoutLine: {'line': b'copying /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025/object_spawner_pallets.py -> /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025\n'}
+[1.990763] (challenge_2025) StdoutLine: {'line': b'copying /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025/__init__.py -> /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025\n'}
+[1.991494] (challenge_2025) StdoutLine: {'line': b'copying /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025/object_spawner_static.py -> /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025\n'}
+[1.992899] (challenge_2025) StdoutLine: {'line': b'copying /home/harry/simulation/build/challenge_2025/build/lib/challenge_2025/tag_spawner_random.py -> /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025\n'}
+[1.993223] (challenge_2025) StdoutLine: {'line': b'byte-compiling /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/object_spawner_pallets.py to object_spawner_pallets.cpython-310.pyc\n'}
+[1.995687] (challenge_2025) StdoutLine: {'line': b'byte-compiling /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/__init__.py to __init__.cpython-310.pyc\n'}
+[1.997727] (challenge_2025) StdoutLine: {'line': b'byte-compiling /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/object_spawner_static.py to object_spawner_static.cpython-310.pyc\n'}
+[1.998183] (challenge_2025) StdoutLine: {'line': b'byte-compiling /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/tag_spawner_random.py to tag_spawner_random.cpython-310.pyc\n'}
+[2.000305] (challenge_2025) StdoutLine: {'line': b'running install_data\n'}
+[2.001649] (challenge_2025) StdoutLine: {'line': b'creating /home/harry/simulation/install/challenge_2025/share/ament_index\n'}
+[2.002229] (challenge_2025) StdoutLine: {'line': b'creating /home/harry/simulation/install/challenge_2025/share/ament_index/resource_index\n'}
+[2.003156] (challenge_2025) StdoutLine: {'line': b'creating /home/harry/simulation/install/challenge_2025/share/ament_index/resource_index/packages\n'}
+[2.003316] (challenge_2025) StdoutLine: {'line': b'copying resource/challenge_2025 -> /home/harry/simulation/install/challenge_2025/share/ament_index/resource_index/packages\n'}
+[2.003703] (challenge_2025) StdoutLine: {'line': b'copying package.xml -> /home/harry/simulation/install/challenge_2025/share/challenge_2025\n'}
+[2.003996] (challenge_2025) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.008152] (challenge_2025) StdoutLine: {'line': b'Copying ../../build/challenge_2025/challenge_2025.egg-info to /home/harry/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025-0.0.0-py3.10.egg-info\n'}
+[2.011898] (challenge_2025) StdoutLine: {'line': b'running install_scripts\n'}
+[2.012103] (-) TimerEvent: {}
+[2.057755] (challenge_2025) StdoutLine: {'line': b'Installing object_spawner_pallets script to /home/harry/simulation/install/challenge_2025/lib/challenge_2025\n'}
+[2.058752] (challenge_2025) StdoutLine: {'line': b'Installing object_spawner_static script to /home/harry/simulation/install/challenge_2025/lib/challenge_2025\n'}
+[2.059065] (challenge_2025) StdoutLine: {'line': b'Installing tag_spawner_random script to /home/harry/simulation/install/challenge_2025/lib/challenge_2025\n'}
+[2.061934] (challenge_2025) StdoutLine: {'line': b"writing list of installed files to '/home/harry/simulation/build/challenge_2025/install.log'\n"}
+[2.112291] (-) TimerEvent: {}
+[2.123060] (challenge_2025) CommandEnded: {'returncode': 0}
+[2.151395] (challenge_2025) JobEnded: {'identifier': 'challenge_2025', 'rc': 0}
+[2.153459] (curator) JobStarted: {'identifier': 'curator'}
+[2.212644] (-) TimerEvent: {}
+[2.292409] (art_maze) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.313047] (-) TimerEvent: {}
+[2.414381] (-) TimerEvent: {}
+[2.517137] (-) TimerEvent: {}
+[2.569089] (art_maze) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.595652] (art_maze) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.617333] (-) TimerEvent: {}
+[2.642518] (art_maze) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.707257] (art_maze) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.717477] (-) TimerEvent: {}
+[2.771317] (art_maze) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.817591] (-) TimerEvent: {}
+[2.918255] (-) TimerEvent: {}
+[3.006624] (art_maze) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.019939] (-) TimerEvent: {}
+[3.027389] (art_maze) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.120099] (-) TimerEvent: {}
+[3.221040] (-) TimerEvent: {}
+[3.323462] (-) TimerEvent: {}
+[3.404872] (art_maze) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.423581] (-) TimerEvent: {}
+[3.464941] (art_maze) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.523704] (-) TimerEvent: {}
+[3.539335] (art_maze) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.578424] (art_maze) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.623849] (-) TimerEvent: {}
+[3.627076] (curator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/curator', 'build', '--build-base', '/home/harry/simulation/build/curator/build', 'install', '--record', '/home/harry/simulation/build/curator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/harry/simulation/art_gallery/curator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'harry', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/harry/robot/install/turtlesim/lib:/home/harry/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/harry', 'OLDPWD': '/home/harry', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2008', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/harry/install:/home/harry/robot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'harry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'harry', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/harry-virtual-machine:@/tmp/.ICE-unix/1783,unix/harry-virtual-machine:/tmp/.ICE-unix/1783', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5e712e11_db76_4bdc_b2aa_d2946fb2702d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R5YOJ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/harry/robot/install/turtlesim:/home/harry/robot/install/my_first_package:/home/harry/robot/install/test_package:/home/harry/install/turtlesim:/home/harry/install/my_first_package:/home/harry/install/test_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/harry/simulation/build/curator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/harry/simulation/build/curator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simulation/install/curator/lib/python3.10/site-packages:/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:/home/harry/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/install/turtlesim:/home/harry/install/test_package'}, 'shell': False}
+[3.725961] (-) TimerEvent: {}
+[3.826897] (-) TimerEvent: {}
+[3.848310] (art_maze) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.849711] (art_maze) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.927122] (-) TimerEvent: {}
+[4.027972] (-) TimerEvent: {}
+[4.069019] (art_maze) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.072095] (art_maze) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.085021] (curator) StdoutLine: {'line': b'running egg_info\n'}
+[4.086360] (curator) StdoutLine: {'line': b'creating ../../build/curator/curator.egg-info\n'}
+[4.086837] (curator) StdoutLine: {'line': b'writing ../../build/curator/curator.egg-info/PKG-INFO\n'}
+[4.087451] (curator) StdoutLine: {'line': b'writing dependency_links to ../../build/curator/curator.egg-info/dependency_links.txt\n'}
+[4.087926] (curator) StdoutLine: {'line': b'writing entry points to ../../build/curator/curator.egg-info/entry_points.txt\n'}
+[4.088799] (curator) StdoutLine: {'line': b'writing requirements to ../../build/curator/curator.egg-info/requires.txt\n'}
+[4.088967] (curator) StdoutLine: {'line': b'writing top-level names to ../../build/curator/curator.egg-info/top_level.txt\n'}
+[4.089539] (curator) StdoutLine: {'line': b"writing manifest file '../../build/curator/curator.egg-info/SOURCES.txt'\n"}
+[4.092485] (curator) StdoutLine: {'line': b"reading manifest file '../../build/curator/curator.egg-info/SOURCES.txt'\n"}
+[4.094894] (curator) StdoutLine: {'line': b"writing manifest file '../../build/curator/curator.egg-info/SOURCES.txt'\n"}
+[4.095097] (curator) StdoutLine: {'line': b'running build\n'}
+[4.095200] (curator) StdoutLine: {'line': b'running build_py\n'}
+[4.095484] (curator) StdoutLine: {'line': b'creating /home/harry/simulation/build/curator/build\n'}
+[4.095662] (curator) StdoutLine: {'line': b'creating /home/harry/simulation/build/curator/build/lib\n'}
+[4.095758] (curator) StdoutLine: {'line': b'creating /home/harry/simulation/build/curator/build/lib/curator\n'}
+[4.095869] (curator) StdoutLine: {'line': b'copying curator/__init__.py -> /home/harry/simulation/build/curator/build/lib/curator\n'}
+[4.096219] (curator) StdoutLine: {'line': b'copying curator/art.py -> /home/harry/simulation/build/curator/build/lib/curator\n'}
+[4.096319] (curator) StdoutLine: {'line': b'copying curator/locations.py -> /home/harry/simulation/build/curator/build/lib/curator\n'}
+[4.096419] (curator) StdoutLine: {'line': b'copying curator/curator.py -> /home/harry/simulation/build/curator/build/lib/curator\n'}
+[4.098474] (curator) StdoutLine: {'line': b'running install\n'}
+[4.098676] (curator) StdoutLine: {'line': b'running install_lib\n'}
+[4.098887] (curator) StdoutLine: {'line': b'creating /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator\n'}
+[4.099027] (curator) StdoutLine: {'line': b'copying /home/harry/simulation/build/curator/build/lib/curator/__init__.py -> /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator\n'}
+[4.099289] (curator) StdoutLine: {'line': b'copying /home/harry/simulation/build/curator/build/lib/curator/art.py -> /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator\n'}
+[4.099693] (curator) StdoutLine: {'line': b'copying /home/harry/simulation/build/curator/build/lib/curator/locations.py -> /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator\n'}
+[4.099911] (curator) StdoutLine: {'line': b'copying /home/harry/simulation/build/curator/build/lib/curator/curator.py -> /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator\n'}
+[4.101066] (curator) StdoutLine: {'line': b'byte-compiling /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator/__init__.py to __init__.cpython-310.pyc\n'}
+[4.101694] (curator) StdoutLine: {'line': b'byte-compiling /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator/art.py to art.cpython-310.pyc\n'}
+[4.102120] (curator) StdoutLine: {'line': b'byte-compiling /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator/locations.py to locations.cpython-310.pyc\n'}
+[4.103910] (curator) StdoutLine: {'line': b'byte-compiling /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator/curator.py to curator.cpython-310.pyc\n'}
+[4.106024] (curator) StdoutLine: {'line': b'running install_data\n'}
+[4.106272] (curator) StdoutLine: {'line': b'creating /home/harry/simulation/install/curator/share/ament_index\n'}
+[4.106375] (curator) StdoutLine: {'line': b'creating /home/harry/simulation/install/curator/share/ament_index/resource_index\n'}
+[4.106469] (curator) StdoutLine: {'line': b'creating /home/harry/simulation/install/curator/share/ament_index/resource_index/packages\n'}
+[4.106558] (curator) StdoutLine: {'line': b'copying resource/curator -> /home/harry/simulation/install/curator/share/ament_index/resource_index/packages\n'}
+[4.106646] (curator) StdoutLine: {'line': b'copying package.xml -> /home/harry/simulation/install/curator/share/curator\n'}
+[4.106731] (curator) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.108211] (curator) StdoutLine: {'line': b'Copying ../../build/curator/curator.egg-info to /home/harry/simulation/install/curator/lib/python3.10/site-packages/curator-0.0.0-py3.10.egg-info\n'}
+[4.109728] (curator) StdoutLine: {'line': b'running install_scripts\n'}
+[4.128143] (-) TimerEvent: {}
+[4.151910] (curator) StdoutLine: {'line': b'Installing curator script to /home/harry/simulation/install/curator/lib/curator\n'}
+[4.152290] (curator) StdoutLine: {'line': b"writing list of installed files to '/home/harry/simulation/build/curator/install.log'\n"}
+[4.201394] (curator) CommandEnded: {'returncode': 0}
+[4.222290] (curator) JobEnded: {'identifier': 'curator', 'rc': 0}
+[4.224963] (tb3_description) JobStarted: {'identifier': 'tb3_description'}
+[4.229381] (-) TimerEvent: {}
+[4.332105] (-) TimerEvent: {}
+[4.348974] (art_maze) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.349317] (art_maze) StdoutLine: {'line': b'See also "/home/harry/simulation/build/art_maze/CMakeFiles/CMakeOutput.log".\n'}
+[4.349424] (art_maze) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[4.349542] (art_maze) StderrLine: {'line': b'  By not providing "Findgazebo_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[4.349631] (art_maze) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[4.349715] (art_maze) StderrLine: {'line': b'  "gazebo_msgs", but CMake did not find one.\n'}
+[4.349797] (art_maze) StderrLine: {'line': b'\n'}
+[4.349934] (art_maze) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo_msgs" with\n'}
+[4.350069] (art_maze) StderrLine: {'line': b'  any of the following names:\n'}
+[4.350166] (art_maze) StderrLine: {'line': b'\n'}
+[4.350247] (art_maze) StderrLine: {'line': b'    gazebo_msgsConfig.cmake\n'}
+[4.350327] (art_maze) StderrLine: {'line': b'    gazebo_msgs-config.cmake\n'}
+[4.350407] (art_maze) StderrLine: {'line': b'\n'}
+[4.350485] (art_maze) StderrLine: {'line': b'  Add the installation prefix of "gazebo_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[4.350564] (art_maze) StderrLine: {'line': b'  "gazebo_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[4.350644] (art_maze) StderrLine: {'line': b'  "gazebo_msgs" provides a separate development package or SDK, be sure it\n'}
+[4.353005] (art_maze) StderrLine: {'line': b'  has been installed.\n'}
+[4.353124] (art_maze) StderrLine: {'line': b'\n'}
+[4.353211] (art_maze) StderrLine: {'line': b'\x1b[0m\n'}
+[4.432371] (-) TimerEvent: {}
+[4.532975] (-) TimerEvent: {}
+[4.633573] (-) TimerEvent: {}
+[4.734567] (-) TimerEvent: {}
+[4.747012] (art_maze) CommandEnded: {'returncode': 1}
+[4.798422] (art_maze) JobEnded: {'identifier': 'art_maze', 'rc': 1}
+[4.834763] (-) TimerEvent: {}
+[4.935482] (-) TimerEvent: {}
+[5.035903] (-) TimerEvent: {}
+[5.136483] (-) TimerEvent: {}
+[5.236878] (-) TimerEvent: {}
+[5.337353] (-) TimerEvent: {}
+[5.374214] (tb3_description) JobEnded: {'identifier': 'tb3_description', 'rc': 'SIGINT'}
+[5.386018] (tb3_gazebo) JobSkipped: {'identifier': 'tb3_gazebo'}
+[5.386113] (-) EventReactorShutdown: {}
