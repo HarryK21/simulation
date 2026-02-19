@@ -1,0 +1,27 @@
+[0.063s] Invoking command in '/home/harry/simul/simulation/build/art_maze': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/harry/simul/simulation/build/art_maze -- -j4 -l4
+[0.637s] [35m[1mConsolidate compiler generated dependencies of target curator[0m
+[0.637s] [100%] Built target curator
+[1.018s] Invoked command in '/home/harry/simul/simulation/build/art_maze' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/harry/simul/simulation/build/art_maze -- -j4 -l4
+[1.036s] Invoking command in '/home/harry/simul/simulation/build/art_maze': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/harry/simul/simulation/build/art_maze
+[1.059s] -- Install configuration: ""
+[1.059s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/lib/art_maze/curator
+[1.059s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/cfg
+[1.059s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/cfg/setup.yaml
+[1.059s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/launch
+[1.059s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/launch/curator.launch.yaml
+[1.059s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/ament_index/resource_index/package_run_dependencies/art_maze
+[1.060s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/ament_index/resource_index/parent_prefix_path/art_maze
+[1.060s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/environment/ament_prefix_path.sh
+[1.060s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/environment/ament_prefix_path.dsv
+[1.060s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/environment/path.sh
+[1.060s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/environment/path.dsv
+[1.061s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/local_setup.bash
+[1.065s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/local_setup.sh
+[1.065s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/local_setup.zsh
+[1.065s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/local_setup.dsv
+[1.065s] -- Installing: /home/harry/simul/simulation/install/art_maze/share/art_maze/package.dsv
+[1.065s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/ament_index/resource_index/packages/art_maze
+[1.066s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/cmake/art_mazeConfig.cmake
+[1.066s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/cmake/art_mazeConfig-version.cmake
+[1.066s] -- Up-to-date: /home/harry/simul/simulation/install/art_maze/share/art_maze/package.xml
+[1.068s] Invoked command in '/home/harry/simul/simulation/build/art_maze' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/harry/simul/simulation/build/art_maze

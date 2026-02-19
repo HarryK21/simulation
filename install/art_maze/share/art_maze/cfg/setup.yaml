@@ -1,0 +1,33 @@
+/**:
+  curator:
+    ros__parameters:
+      maze:
+        size: 5
+        seed: 1
+      gazebo:
+        scale: 3.0
+        height: 1.0
+        thickness: 0.05
+      exhibition:
+        size: 3
+        art:
+          - "aeroplane"
+          - "banana"
+          - "bird"
+          - "boat"
+          - "cat"
+          - "clock"
+          - "cow"
+          - "donut"
+          - "elephant"
+          - "giraffe"
+          - "scissors"
+          - "sheep"
+          - "stopsign"
+          - "teddy"
+          - "toilet"
+          - "train"
+          - "umbrella"
+          - "zebra"
+        tags: 30
+        clearance: 0.1

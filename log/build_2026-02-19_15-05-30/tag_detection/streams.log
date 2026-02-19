@@ -1,0 +1,22 @@
+[1.565s] Invoking command in '/home/harry/simul/simulation/src/tag_detection': PYTHONPATH=/home/harry/simul/simulation/build/tag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simul/simulation/install/tag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tag_detection build --build-base /home/harry/simul/simulation/build/tag_detection/build install --record /home/harry/simul/simulation/build/tag_detection/install.log --single-version-externally-managed install_data
+[2.315s] running egg_info
+[2.315s] writing ../../build/tag_detection/tag_detection.egg-info/PKG-INFO
+[2.315s] writing dependency_links to ../../build/tag_detection/tag_detection.egg-info/dependency_links.txt
+[2.316s] writing entry points to ../../build/tag_detection/tag_detection.egg-info/entry_points.txt
+[2.316s] writing requirements to ../../build/tag_detection/tag_detection.egg-info/requires.txt
+[2.320s] writing top-level names to ../../build/tag_detection/tag_detection.egg-info/top_level.txt
+[2.324s] reading manifest file '../../build/tag_detection/tag_detection.egg-info/SOURCES.txt'
+[2.327s] writing manifest file '../../build/tag_detection/tag_detection.egg-info/SOURCES.txt'
+[2.328s] running build
+[2.328s] running build_py
+[2.329s] running install
+[2.330s] running install_lib
+[2.335s] running install_data
+[2.336s] running install_egg_info
+[2.338s] removing '/home/harry/simul/simulation/install/tag_detection/lib/python3.10/site-packages/tag_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.340s] Copying ../../build/tag_detection/tag_detection.egg-info to /home/harry/simul/simulation/install/tag_detection/lib/python3.10/site-packages/tag_detection-0.0.0-py3.10.egg-info
+[2.342s] running install_scripts
+[2.384s] Installing distance_calc script to /home/harry/simul/simulation/install/tag_detection/lib/tag_detection
+[2.386s] Installing listenernode script to /home/harry/simul/simulation/install/tag_detection/lib/tag_detection
+[2.386s] writing list of installed files to '/home/harry/simul/simulation/build/tag_detection/install.log'
+[2.452s] Invoked command in '/home/harry/simul/simulation/src/tag_detection' returned '0': PYTHONPATH=/home/harry/simul/simulation/build/tag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simul/simulation/install/tag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tag_detection build --build-base /home/harry/simul/simulation/build/tag_detection/build install --record /home/harry/simul/simulation/build/tag_detection/install.log --single-version-externally-managed install_data

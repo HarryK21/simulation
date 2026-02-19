@@ -1,0 +1,9 @@
+launch:
+  - node:
+      pkg: "art_maze"
+      exec: "curator"
+      name: "curator"
+      namespace: ""
+      param:
+      - from: $(find-pkg-share art_maze)/cfg/setup.yaml
+

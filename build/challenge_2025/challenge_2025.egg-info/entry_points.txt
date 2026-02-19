@@ -1,0 +1,5 @@
+[console_scripts]
+object_spawner_pallets = challenge_2025.object_spawner_pallets:main
+object_spawner_static = challenge_2025.object_spawner_pallets:main
+tag_spawner_random = challenge_2025.tag_spawner_random:main
+

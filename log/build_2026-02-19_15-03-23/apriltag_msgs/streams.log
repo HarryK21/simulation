@@ -1,0 +1,286 @@
+[0.054s] Invoking command in '/home/harry/simul/simulation/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/harry/simul/simulation/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/harry/simul/simulation/install/apriltag_msgs
+[0.500s] -- The C compiler identification is GNU 11.4.0
+[0.642s] -- The CXX compiler identification is GNU 11.4.0
+[0.682s] -- Detecting C compiler ABI info
+[0.876s] -- Detecting C compiler ABI info - done
+[0.889s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.890s] -- Detecting C compile features
+[0.890s] -- Detecting C compile features - done
+[0.894s] -- Detecting CXX compiler ABI info
+[1.085s] -- Detecting CXX compiler ABI info - done
+[1.118s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.118s] -- Detecting CXX compile features
+[1.120s] -- Detecting CXX compile features - done
+[1.131s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.538s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.804s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.824s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.862s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.004s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.114s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.774s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.845s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.905s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.911s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.984s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.984s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.984s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.985s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.027s] -- Found PythonExtra: .so  
+[4.134s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.212s] -- Added test 'lint_cmake' to check CMake code style
+[4.219s] -- Added test 'xmllint' to check XML markup files
+[4.225s] -- Configuring done
+[4.300s] -- Generating done
+[4.318s] -- Build files have been written to: /home/harry/simul/simulation/build/apriltag_msgs
+[4.326s] Invoked command in '/home/harry/simul/simulation/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/harry/simul/simulation/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/harry/simul/simulation/install/apriltag_msgs
+[4.336s] Invoking command in '/home/harry/simul/simulation/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/harry/simul/simulation/build/apriltag_msgs -- -j4 -l4
+[4.433s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.525s] [  2%] Built target ament_cmake_python_copy_apriltag_msgs
+[4.575s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.839s] running egg_info
+[5.839s] creating apriltag_msgs.egg-info
+[5.843s] writing apriltag_msgs.egg-info/PKG-INFO
+[5.843s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[5.847s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[5.848s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[5.855s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[5.861s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[6.041s] [  4%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[6.993s] [  6%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/point__functions.c.o[0m
+[7.011s] [  8%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o[0m
+[7.051s] [ 10%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o[0m
+[7.101s] [ 10%] Built target apriltag_msgs__cpp
+[7.218s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.251s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.458s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.503s] [ 19%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so[0m
+[7.823s] [ 19%] Built target apriltag_msgs__rosidl_generator_c
+[7.987s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.422s] [ 23%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[9.829s] [ 25%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[10.321s] [ 27%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/point__type_support.cpp.o[0m
+[10.568s] [ 29%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[11.708s] [ 31%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[13.100s] [ 34%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[13.396s] [ 36%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[13.473s] [ 38%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[13.501s] [ 40%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[15.420s] [ 42%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so[0m
+[15.470s] [ 44%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[15.754s] [ 46%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[15.770s] [ 46%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[15.828s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.735s] [ 51%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[18.677s] [ 53%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/point__type_support.c.o[0m
+[18.744s] [ 55%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.855s] [ 57%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o[0m
+[18.945s] [ 59%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[19.231s] [ 61%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[19.361s] [ 61%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[19.401s] [ 63%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so[0m
+[19.417s] [ 65%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.566s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[19.597s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[19.907s] [ 68%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.223s] [ 68%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[20.533s] [ 70%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[20.557s] [ 72%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[20.577s] [ 74%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[20.678s] [ 76%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so[0m
+[20.772s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_c
+[20.814s] [ 76%] Built target apriltag_msgs
+[20.868s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.063s] [ 78%] Built target apriltag_msgs__py
+[23.289s] [ 80%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[23.292s] [ 82%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o[0m
+[23.324s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o[0m
+[25.526s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so[0m
+[25.964s] [ 87%] Built target apriltag_msgs__rosidl_generator_py
+[26.069s] [ 89%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.119s] [ 91%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.256s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[26.527s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[26.539s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[26.706s] [ 97%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[26.833s] [ 97%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[26.849s] [100%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[27.004s] [100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[27.044s] Invoked command in '/home/harry/simul/simulation/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/harry/simul/simulation/build/apriltag_msgs -- -j4 -l4
+[27.050s] Invoking command in '/home/harry/simul/simulation/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/harry/simul/simulation/build/apriltag_msgs
+[27.075s] -- Install configuration: ""
+[27.076s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[27.077s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[27.077s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[27.077s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[27.078s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[27.079s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[27.079s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[27.080s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[27.081s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[27.081s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[27.082s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[27.090s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[27.091s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[27.092s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[27.092s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[27.092s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c
+[27.092s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[27.092s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[27.092s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[27.093s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[27.093s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[27.095s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[27.096s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[27.096s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so" to ""
+[27.097s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[27.098s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[27.098s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.098s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[27.099s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[27.099s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[27.099s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[27.102s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[27.103s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[27.103s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[27.103s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[27.103s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.104s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[27.104s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[27.106s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[27.107s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[27.107s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[27.108s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c
+[27.108s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[27.108s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[27.111s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so" to ""
+[27.113s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[27.114s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so" to ""
+[27.114s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[27.115s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[27.115s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.115s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[27.115s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[27.116s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[27.119s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[27.120s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[27.121s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp
+[27.121s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[27.121s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[27.121s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[27.121s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp
+[27.121s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.hpp
+[27.123s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[27.124s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[27.124s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[27.124s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[27.124s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[27.124s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[27.125s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[27.125s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.125s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[27.127s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[27.127s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[27.129s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[27.129s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[27.129s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[27.131s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.132s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[27.132s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[27.132s] -- Up-to-date: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[27.132s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[27.132s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[27.133s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[27.133s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[27.133s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp
+[27.133s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[27.134s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[27.135s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[27.137s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[27.137s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so" to ""
+[27.138s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[27.139s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[27.139s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info
+[27.143s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[27.144s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[27.144s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[27.144s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[27.144s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs
+[27.144s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.145s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[27.145s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.146s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg
+[27.146s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[27.146s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[27.149s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[27.151s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py
+[27.151s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c
+[27.151s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[27.151s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[27.152s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.152s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[27.152s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[27.152s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[27.153s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.313s] Listing '/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[27.313s] Compiling '/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py'...
+[27.313s] Listing '/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[27.314s] Compiling '/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py'...
+[27.314s] Compiling '/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py'...
+[27.314s] Compiling '/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py'...
+[27.315s] Compiling '/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py'...
+[27.329s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.330s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.331s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.333s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.334s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.336s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.337s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[27.337s] -- Set runtime path of "/home/harry/simul/simulation/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so" to ""
+[27.340s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[27.341s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[27.341s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[27.342s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[27.343s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[27.343s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[27.343s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[27.343s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[27.346s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[27.347s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[27.347s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[27.347s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[27.348s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[27.348s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[27.352s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[27.353s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[27.353s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[27.354s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[27.354s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[27.354s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[27.354s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[27.354s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.355s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[27.355s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.355s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[27.356s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[27.357s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[27.357s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.357s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.357s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[27.357s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.357s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[27.358s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[27.358s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[27.358s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[27.361s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[27.361s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.361s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.362s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[27.363s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[27.363s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.363s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.365s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[27.366s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[27.366s] -- Installing: /home/harry/simul/simulation/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[27.376s] Invoked command in '/home/harry/simul/simulation/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/harry/simul/simulation/build/apriltag_msgs

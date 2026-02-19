@@ -1,0 +1,48 @@
+running egg_info
+creating ../../../../build/tb3_description/tb3_description.egg-info
+writing ../../../../build/tb3_description/tb3_description.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/tb3_description/tb3_description.egg-info/dependency_links.txt
+writing entry points to ../../../../build/tb3_description/tb3_description.egg-info/entry_points.txt
+writing requirements to ../../../../build/tb3_description/tb3_description.egg-info/requires.txt
+writing top-level names to ../../../../build/tb3_description/tb3_description.egg-info/top_level.txt
+writing manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/harry/simul/simulation/build/tb3_description/build
+creating /home/harry/simul/simulation/build/tb3_description/build/lib
+creating /home/harry/simul/simulation/build/tb3_description/build/lib/tb3_description
+copying tb3_description/__init__.py -> /home/harry/simul/simulation/build/tb3_description/build/lib/tb3_description
+running install
+running install_lib
+creating /home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages/tb3_description
+copying /home/harry/simul/simulation/build/tb3_description/build/lib/tb3_description/__init__.py -> /home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages/tb3_description
+byte-compiling /home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages/tb3_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/harry/simul/simulation/install/tb3_description/share/ament_index
+creating /home/harry/simul/simulation/install/tb3_description/share/ament_index/resource_index
+creating /home/harry/simul/simulation/install/tb3_description/share/ament_index/resource_index/packages
+copying resource/tb3_description -> /home/harry/simul/simulation/install/tb3_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description
+creating /home/harry/simul/simulation/install/tb3_description/share/tb3_description/launch
+creating /home/harry/simul/simulation/install/tb3_description/share/tb3_description/config
+creating /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+copying urdf/laser.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+copying urdf/common_properties.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+copying urdf/camera.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+copying urdf/wheel.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+copying urdf/caster.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+copying urdf/imu.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+copying urdf/turtlebot3_waffle_base.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+creating /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+copying meshes/RPLIDAR.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+copying meshes/left_tire.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+copying meshes/right_tire.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+copying meshes/webcam.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+copying meshes/waffle_custom_base_old.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+copying meshes/waffle_custom_base.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+running install_egg_info
+Copying ../../../../build/tb3_description/tb3_description.egg-info to /home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/harry/simul/simulation/build/tb3_description/install.log'

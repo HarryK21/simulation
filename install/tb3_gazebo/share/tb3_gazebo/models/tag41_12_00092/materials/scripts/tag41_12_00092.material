@@ -1,0 +1,13 @@
+material tag41_12_00092/Marker
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tag41_12_00092.png
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+[1.294s] Invoking command in '/home/harry/simul/simulation/src/simulation/art_gallery/tb3_description': PYTHONPATH=/home/harry/simul/simulation/build/tb3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/tb3_description build --build-base /home/harry/simul/simulation/build/tb3_description/build install --record /home/harry/simul/simulation/build/tb3_description/install.log --single-version-externally-managed install_data
+[2.748s] running egg_info
+[2.754s] creating ../../../../build/tb3_description/tb3_description.egg-info
+[2.754s] writing ../../../../build/tb3_description/tb3_description.egg-info/PKG-INFO
+[2.760s] writing dependency_links to ../../../../build/tb3_description/tb3_description.egg-info/dependency_links.txt
+[2.761s] writing entry points to ../../../../build/tb3_description/tb3_description.egg-info/entry_points.txt
+[2.767s] writing requirements to ../../../../build/tb3_description/tb3_description.egg-info/requires.txt
+[2.767s] writing top-level names to ../../../../build/tb3_description/tb3_description.egg-info/top_level.txt
+[2.767s] writing manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[2.779s] reading manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[2.787s] writing manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[2.788s] running build
+[2.789s] running build_py
+[2.789s] creating /home/harry/simul/simulation/build/tb3_description/build
+[2.794s] creating /home/harry/simul/simulation/build/tb3_description/build/lib
+[2.794s] creating /home/harry/simul/simulation/build/tb3_description/build/lib/tb3_description
+[2.798s] copying tb3_description/__init__.py -> /home/harry/simul/simulation/build/tb3_description/build/lib/tb3_description
+[2.798s] running install
+[2.804s] running install_lib
+[2.808s] creating /home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages/tb3_description
+[2.808s] copying /home/harry/simul/simulation/build/tb3_description/build/lib/tb3_description/__init__.py -> /home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages/tb3_description
+[2.815s] byte-compiling /home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages/tb3_description/__init__.py to __init__.cpython-310.pyc
+[2.815s] running install_data
+[2.816s] creating /home/harry/simul/simulation/install/tb3_description/share/ament_index
+[2.817s] creating /home/harry/simul/simulation/install/tb3_description/share/ament_index/resource_index
+[2.817s] creating /home/harry/simul/simulation/install/tb3_description/share/ament_index/resource_index/packages
+[2.825s] copying resource/tb3_description -> /home/harry/simul/simulation/install/tb3_description/share/ament_index/resource_index/packages
+[2.825s] copying package.xml -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description
+[2.828s] creating /home/harry/simul/simulation/install/tb3_description/share/tb3_description/launch
+[2.828s] creating /home/harry/simul/simulation/install/tb3_description/share/tb3_description/config
+[2.828s] creating /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+[2.829s] copying urdf/laser.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+[2.830s] copying urdf/common_properties.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+[2.833s] copying urdf/camera.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+[2.837s] copying urdf/wheel.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+[2.838s] copying urdf/caster.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+[2.847s] copying urdf/imu.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+[2.850s] copying urdf/turtlebot3_waffle_base.urdf.xacro -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/urdf
+[2.850s] creating /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+[2.852s] copying meshes/RPLIDAR.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+[3.170s] copying meshes/left_tire.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+[3.198s] copying meshes/right_tire.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+[3.230s] copying meshes/webcam.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+[3.390s] copying meshes/waffle_custom_base_old.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+[4.882s] copying meshes/waffle_custom_base.stl -> /home/harry/simul/simulation/install/tb3_description/share/tb3_description/meshes
+[6.202s] running install_egg_info
+[6.214s] Copying ../../../../build/tb3_description/tb3_description.egg-info to /home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info
+[6.217s] running install_scripts
+[6.313s] writing list of installed files to '/home/harry/simul/simulation/build/tb3_description/install.log'
+[6.404s] Invoked command in '/home/harry/simul/simulation/src/simulation/art_gallery/tb3_description' returned '0': PYTHONPATH=/home/harry/simul/simulation/build/tb3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simul/simulation/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/tb3_description build --build-base /home/harry/simul/simulation/build/tb3_description/build install --record /home/harry/simul/simulation/build/tb3_description/install.log --single-version-externally-managed install_data

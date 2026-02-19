@@ -1,0 +1,4 @@
+[console_scripts]
+distance_calc = tag_detection.distance_calculator:main
+listenernode = tag_detection.tf_listener:main
+

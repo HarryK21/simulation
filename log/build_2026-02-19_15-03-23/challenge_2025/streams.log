@@ -1,0 +1,45 @@
+[1.891s] Invoking command in '/home/harry/simul/simulation/src/simulation/art_gallery/challenge_2025': PYTHONPATH=/home/harry/simul/simulation/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/challenge_2025 build --build-base /home/harry/simul/simulation/build/challenge_2025/build install --record /home/harry/simul/simulation/build/challenge_2025/install.log --single-version-externally-managed install_data
+[2.344s] running egg_info
+[2.344s] creating ../../../../build/challenge_2025/challenge_2025.egg-info
+[2.344s] writing ../../../../build/challenge_2025/challenge_2025.egg-info/PKG-INFO
+[2.344s] writing dependency_links to ../../../../build/challenge_2025/challenge_2025.egg-info/dependency_links.txt
+[2.344s] writing entry points to ../../../../build/challenge_2025/challenge_2025.egg-info/entry_points.txt
+[2.346s] writing requirements to ../../../../build/challenge_2025/challenge_2025.egg-info/requires.txt
+[2.346s] writing top-level names to ../../../../build/challenge_2025/challenge_2025.egg-info/top_level.txt
+[2.346s] writing manifest file '../../../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[2.348s] reading manifest file '../../../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[2.349s] writing manifest file '../../../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[2.350s] running build
+[2.350s] running build_py
+[2.350s] creating /home/harry/simul/simulation/build/challenge_2025/build
+[2.351s] creating /home/harry/simul/simulation/build/challenge_2025/build/lib
+[2.351s] creating /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025
+[2.351s] copying challenge_2025/object_spawner_pallets.py -> /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025
+[2.352s] copying challenge_2025/__init__.py -> /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025
+[2.352s] copying challenge_2025/object_spawner_static.py -> /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025
+[2.353s] copying challenge_2025/tag_spawner_random.py -> /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025
+[2.355s] running install
+[2.355s] running install_lib
+[2.358s] creating /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[2.359s] copying /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025/object_spawner_pallets.py -> /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[2.359s] copying /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025/__init__.py -> /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[2.360s] copying /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025/object_spawner_static.py -> /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[2.361s] copying /home/harry/simul/simulation/build/challenge_2025/build/lib/challenge_2025/tag_spawner_random.py -> /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[2.362s] byte-compiling /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/object_spawner_pallets.py to object_spawner_pallets.cpython-310.pyc
+[2.363s] byte-compiling /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/__init__.py to __init__.cpython-310.pyc
+[2.365s] byte-compiling /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/object_spawner_static.py to object_spawner_static.cpython-310.pyc
+[2.365s] byte-compiling /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/tag_spawner_random.py to tag_spawner_random.cpython-310.pyc
+[2.366s] running install_data
+[2.366s] creating /home/harry/simul/simulation/install/challenge_2025/share/ament_index
+[2.367s] creating /home/harry/simul/simulation/install/challenge_2025/share/ament_index/resource_index
+[2.367s] creating /home/harry/simul/simulation/install/challenge_2025/share/ament_index/resource_index/packages
+[2.368s] copying resource/challenge_2025 -> /home/harry/simul/simulation/install/challenge_2025/share/ament_index/resource_index/packages
+[2.368s] copying package.xml -> /home/harry/simul/simulation/install/challenge_2025/share/challenge_2025
+[2.368s] running install_egg_info
+[2.372s] Copying ../../../../build/challenge_2025/challenge_2025.egg-info to /home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages/challenge_2025-0.0.0-py3.10.egg-info
+[2.373s] running install_scripts
+[2.413s] Installing object_spawner_pallets script to /home/harry/simul/simulation/install/challenge_2025/lib/challenge_2025
+[2.413s] Installing object_spawner_static script to /home/harry/simul/simulation/install/challenge_2025/lib/challenge_2025
+[2.414s] Installing tag_spawner_random script to /home/harry/simul/simulation/install/challenge_2025/lib/challenge_2025
+[2.414s] writing list of installed files to '/home/harry/simul/simulation/build/challenge_2025/install.log'
+[2.463s] Invoked command in '/home/harry/simul/simulation/src/simulation/art_gallery/challenge_2025' returned '0': PYTHONPATH=/home/harry/simul/simulation/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/simul/simulation/install/challenge_2025/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/challenge_2025 build --build-base /home/harry/simul/simulation/build/challenge_2025/build install --record /home/harry/simul/simulation/build/challenge_2025/install.log --single-version-externally-managed install_data
